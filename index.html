@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiku Bistro</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+</head>
+<body>
+<div class="wrapper">
+    <!-- Nav Start -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#hh">Happy Hour</a>
+        <a href="#loc">Location</a>
+    </div>
+    <div id="navbar">
+<span style="font-size:50px;
+    cursor:pointer;
+    padding-right: 25px;
+    color: #ba5342;
+    float:right"
+      onclick="openNav()">&#9776;</span>
+    </div>
+    <!-- nav end -->
+
+    <div id="home" class="bgimage">
+
+
+    </div>
+
+    <!-- about start -->
+    <div id="about" class="rectangle"><h2 class="border">ABOUT US</h2></div>
+
+
+    <div>
+        <h3 class="bringing">BRINGING JAPANESE CUISINE<br>TO MINNEAPOLIS</h3>
+    </div>
+    <div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img class="imgsize" src="img/food1.jpg">
+
+            </div>
+
+            <div class="mySlides fade">
+                <img class="imgsize"  src="img/food2.jpg">
+
+            </div>
+
+            <div class="mySlides fade">
+
+                <img class="imgsize"  src="img/food3.jpg">
+
+            </div>
+            <div class="mySlides fade">
+                <img class="imgsize"  src="img/food4.jpg">
+
+            </div>
+            <div class="mySlides fade">
+                <img class="imgsize"  src="img/food5.jpg">
+
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+
+    </div>
+
+
+    <div class="about">
+        Kiku Bistro is a locally-owned Asian restaurant featuring innovative sushi rolls and traditional stir-fries,
+        teriyakis, and tempuras. We feature fare for the experienced sushi aficionado, as well as the guest seeking
+        to explore new cuisine. Come visit us in the heart of Uptown for our daily Happy Hour and stay for dinner and
+        our new and expanded dinner menu. We look forward to meeting you!
+    </div>
+    <!-- about end -->
+
+    <!-- menu start -->
+
+    <div id="menu" class="rectangle2"><h2 class="border">OUR MENU</h2></div>
+    <div class="butmid">
+        <button class="accordion">Appetizers</button>
+        <div class="panel">
+            <h4>Edamame</h4>
+            <p>Steamed whole soybeans sprinkled with sea salt
+                <span class="right">$4.95
+
+            </span></p>
+            <h4>Gyoza
+            </h4>
+            <p>Pan-fried dumpling - Choice of pork, shrimp, or vegetable
+
+                <span class="right">$5.95
+</span></p>
+            <h4>Fuji Spring Roll
+
+            </h4>
+            <p>2 fried vegetable spring rolls
+
+                <span class="right">$5.95
+
+</span></p>
+
+            <h4>Shishito Pepper
+
+            </h4>
+            <p>Whole grilled peppers sprinkled with sea salt
+
+
+                <span class="right">$5.95
+</span></p>
+
+            <h4>Shumai
+
+            </h4>
+            <p>Steamed open-faced dumpling - Choice of pork or shrimp
+
+
+                <span class="right">$6.95
+
+</span></p>
+
+
+        </div>
+    </div>
+    <div class="butmid">
+        <button class="accordion">Entrees</button>
+        <div class="panel">
+            <h4>Beef with Broccoli
+
+            </h4>
+            <p>Stir-fried beef with fresh broccoli
+
+
+                <span class="right">$13.95
+
+</span></p>
+
+
+            <h4>Fuji Special Chicken
+
+            </h4>
+            <p>Lightly breaded chicken breast stir-fried in a sweet Sichuan Sauce
+
+
+                <span class="right">$13.95
+</span></p>
+
+            <h4>Sesame Chicken
+
+
+            </h4>
+            <p>Chicken breast stir-fried with sesame seeds
+
+
+                <span class="right">$13.95
+
+</span></p>
+
+            <h4>Mango Madness Chicken
+
+            </h4>
+            <p>Chicken breast stir-fried with vegetables and fresh mango
+
+
+                <span class="right">$14.95
+
+</span></p>
+
+            <h4>Orange Beef with Plum Sauce
+
+            </h4>
+            <p>Steak stir-fried with orange peel and plum sauce
+
+
+                <span class="right">$15.95
+            </span></p>
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Teriyaki</button>
+        <div class="panel">
+            <h4>Chicken
+
+            </h4>
+            <p>Served on a sizzling platter w. miso soup or salad, and white rice
+
+
+                <span class="right">$15.95
+</span></p>
+
+            <h4>Shrimp
+            </h4>
+            <p>Served on a sizzling platter w. miso soup or salad, and white rice
+
+                <span class="right">$17.95
+</span></p>
+
+            <h4>Filet Mignon
+
+            </h4>
+            <p>Served on a sizzling platter w. miso soup or salad, and white rice
+
+
+                <span class="right">$20.95
+
+</span></p>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Tempura</button>
+        <div class="panel">
+            <h4>Vegetable
+
+            </h4>
+            <p>Eggplant – Broccoli – Onion – Carrot – Sweet Potato - Zucchini
+
+
+                <span class="right">$10.95
+
+</span></p>
+
+            <h4>Chicken
+
+            </h4>
+            <p>White Meat Chicken Breast
+
+                <span class="right">$15.95
+</span></p>
+
+            <h4>Shrimp
+
+            </h4>
+            <p>Jumbo Shrimp
+
+
+                <span class="right">$18.95
+</span></p>
+
+            <h4>Seafood
+
+            </h4>
+            <p>Shrimp – Scallops – Crab Stick - Lobster
+
+                <span class="right">$21.95
+
+</span></p>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Soups & Salads</button>
+        <div class="panel">
+            <h4>Miso Soup
+            </h4>
+            <p>Miso and dashi stock with wakame and tofu
+
+
+                <span class="right">$2.70
+
+</span></p>
+
+            <h4>Dumpling Soup
+
+            </h4>
+            <p>Mushroom broth with pork dumplings
+
+
+                <span class="right">$3.25
+
+</span></p>
+
+            <h4>House Salad
+
+
+            </h4>
+            <p> Assorted greens with sesame dressing
+
+
+                <span class="right">$3.95
+
+</span></p>
+
+            <h4>Seaweed Salad
+
+            </h4>
+            <p>Seaweed marinated with sesame oil and sesame seeds
+
+
+                <span class="right">$5.95
+</span></p>
+
+            <h4>Avocado Salad
+            </h4>
+            <p>Mixed greens with avocado and sesame dressing and sesame seeds
+
+                <span class="right">$6.95
+
+</span></p>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Rolls & Hand Rolls</button>
+        <div class="panel">
+            <h4>Cucumber Roll
+
+
+                <span class="right">$4.25</span></h4>
+
+            <h4>Alaska Roll
+                <span class="right">$6.00
+
+            </span></h4>
+
+            <h4>Oshinko Roll
+
+
+                <span class="right">$4.25
+
+    </span></h4>
+
+            <h4>Boston Roll
+
+
+                <span class="right">$5.25
+
+    </span></h4>
+
+            <h4>Avocado Roll
+
+
+                <span class="right">$4.25
+
+    </span></h4>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Chef's Special Rolls</button>
+        <div class="panel">
+            <h4>Spring Roll
+            </h4>
+            <p>Spicy Scallops - Cucumber - Crunch - Seaweed Salad
+
+                <span class="right">$14.25
+</span></p>
+
+
+            <h4>Summer Roll
+            </h4>
+            <p> Tuna – Salmon – Avocado - Masago
+
+                <span class="right">$12.95
+
+</span></p>
+
+
+            <h4>Fall Roll
+            </h4>
+            <p> Shrimp – Kanpyo – Crunch – Tuna – Salmon – Avocado – Cucumber
+
+
+                <span class="right"> $12.95
+ </span></p>
+
+
+            <h4>Winter Roll
+            </h4>
+            <p> Spicy Flounder – Striped Bass – Red Snapper – Escolar Mix – Masago – Special Sauce – Deep Fried
+
+
+                <span class="right"> $10.95
+ </span></p>
+
+
+            <h4>Tuna Tempura Roll
+            </h4>
+            <p> Tuna – Scallions – Radish – Masago – Special Sauce – Deep Fried
+
+
+                <span class="right"> $11.95
+ </span></p>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Noodle & Rice Dishes</button>
+        <div class="panel">
+
+            <h4>Fried Rice
+            </h4>
+            <p>Choice of Vegetable, Chicken, Beef, or Shrimp
+
+                <span class="right">$11.25
+
+</span></p>
+
+
+            <h4>Special Fried Rice
+
+            </h4>
+            <p>Combination of Chicken, Beef, and Shrimp
+
+                <span class="right">$12.95
+
+</span></p>
+
+
+            <h4>Sriracha Fried Rice
+
+            </h4>
+            <p>Choice of Vegetable, Chicken, or Beef
+
+                <span class="right">$11.25
+</span></p>
+
+
+            <h4>Yaki Udon
+
+            </h4>
+            <p>Japanese style stir-fried thick wheat flour noodles – Choice of Vegetable, Chicken, Beef, or Shrimp
+
+
+                <span class="right">$12.95
+
+</span></p>
+
+
+            <h4>Nabe Yaki Udon
+            </h4>
+            <p>Japanese style noodle soup – Choice of Vegetable, Chicken, Beef, or Shrimp
+
+
+                <span class="right">$12.95
+</span></p>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Sushi & Sashimi Entrees</button>
+        <div class="panel">
+            <h4>Maki Combination
+
+            </h4>
+            <p>Tuna Roll – Salmon Roll – California Roll
+
+                <span class="right">$12.95
+</span></p>
+
+            <h4>Spicy Maki Combination
+
+            </h4>
+            <p>Spicy Tuna Roll – Spicy Salmon Roll – Spicy California Roll
+
+
+                <span class="right">$13.95
+
+</span></p>
+
+            <h4>Tuna Lover
+
+            </h4>
+            <p>Tuna Roll – Spicy Tuna Roll – 5 pieces Tuna Sushi
+
+
+                <span class="right">$18.95
+</span></p>
+
+            <h4>Salmon Lover
+
+            </h4>
+            <p>Salmon Roll – Spicy Salmon Roll – 5 pieces Salmon Sushi
+
+
+                <span class="right">$18.95
+
+</span></p>
+
+            <h4> Vegetable Lover
+
+            </h4>
+            <p>Choice of 2 Vegetable Rolls – 2 pieces Inari
+
+
+                <span class="right">$16.95
+
+</span></p>
+
+        </div>
+    </div>
+
+    <div class="butmid">
+        <button class="accordion">Sushi & Sashimi A La Carte
+        </button>
+        <div class="panel">
+
+
+            <h4>AJI
+            </h4>
+            <p>Jack Mackerel
+
+
+                <span class="right">Market Price &darr;
+</span></p>
+
+            <h4>AKAGAI
+
+            </h4>
+            <p>Red Clam
+
+
+                <span class="right">
+</span></p>
+
+            <h4>AMA EBI
+
+            </h4>
+            <p>Sweet Raw Shrimp
+
+
+                <span class="right">
+</span></p>
+
+            <h4>ANAGO
+
+            </h4>
+            <p>Salt Water Eel
+
+
+                <span class="right">
+</span></p>
+
+            <h4>EBI
+
+            </h4>
+            <p>Shrimp
+
+
+                <span class="right">
+</span></p>
+
+        </div>
+    </div>
+    <!-- menu end-->
+
+    <!-- Happy Hour start-->
+
+    <div id="hh" class="rectangle3"><h2 class="border1">HAPPY HOUR</h2></div>
+    <div>
+
+        <h3 class="specials">FEATURING DAILY FOOD AND DRINK SPECIALS<br>CHANGING REGULARLY</h3>
+        <table class="happyhour">
+            <tr>
+                <td>Monday - Thursday</td>
+                <td>4:30pm-7:30pm & 9:00pm-12:30am</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>3:00pm-7:30pm & 9:00pm-1:30am</td>
+            </tr>
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td>3:00pm-1:30am</td>
+            </tr>
+        </table>
+
+        <img src="img/sushi.gif" class="cheers">
+    </div>
+
+    <!-- Happy Hour End-->
+
+
+    <!-- location Start-->
+
+
+    <div id="loc" class="rectangle4"><h2 class="border">LOCATION</h2></div>
+    <div>
+
+        <table class="hours">
+            <tr>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Mon - Thu</td>
+                <td>4:30pm-12:30am</td>
+
+            </tr>
+            <tr>
+                <td>Fri - Sun</td>
+                <td>3:00pm-1:30am</td>
+            </tr>
+        </table>
+
+
+        <table class="address">
+            <tr>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>2819 Hennepin Ave S<br> Minneapolis 55408<br>612-872-1778</td>
+            </tr>
+        </table>
+    </div>
+
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1411.8171465519567!2d-93.29888432865562!3d44.
+95110184890913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f6278022552819%3A0xc51475257758c75!2sKiku+Bistro
+!5e0!3m2!1sen!2sus!4v1523905329056" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- Location end-->
+
+    <!-- footer start-->
+
+    <footer class="footer">
+        <div class="footer-social">
+            <span class="connect">Connect with us:</span>
+            <a href="https://www.facebook.com/kikubistrompls/">
+                <img src='http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png'/>
+            </a>
+            <a href="https://twitter.com/kikubistro?lang=en">
+                <img src='http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg'/>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Footer end -->
+
+
+    <script>
+        function openNav() {
+
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+
+    </script>
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+</div>
+
+</body>
+</html>
